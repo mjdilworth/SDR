@@ -1,6 +1,6 @@
 # SDR
 SRE Decision Record
-
+```mermaid
 graph TD
   A[Identify Need for Decision] --> B[Create Branch and Draft ADR]
   B --> C[Push Branch and Open Pull Request]
