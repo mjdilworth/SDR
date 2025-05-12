@@ -10,7 +10,7 @@ graph TD
   E -- No --> G[Revise ADR Based on Feedback]
   G --> C
   F --> H[Merge into Main]
-  H --> I[Tag Release or Milestone (optional)]
+  H --> I["Tag Release or Milestone (optional)"]
   I --> J[Implement Decision in Code]
   J --> K[Reference ADR in Commits/Tickets]
   K --> L[Periodic Review of ADRs]
